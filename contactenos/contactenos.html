@@ -1,0 +1,94 @@
+<!DOCTYPE><head>
+    <meta charset = "utf-8"/>
+    
+       <link rel="stylesheet" href="../css/nivo-slider.css">
+	<link rel="stylesheet" href="../css/mi-slider.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+            
+   <link rel="stylesheet" type="text/css" href="../css/MisEstilos.css">
+    <title>Formulario contáctenos</title>
+  </head>
+  
+
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <body>
+
+
+    
+  <header>
+   <section id="menu">
+ 
+  
+   <ul>
+  
+     <a href="../historia/historia.html">Historia</a>
+    <a href="contactenos.html">Cont&aacute;ctenos</a>
+     <a href="../index.html">Inicio</a>  
+   </ul>
+    </section>
+  
+  </header>
+  </br>
+  </br>
+  </br>
+ 
+	<section class = "encabezadoimg">
+	  <article class = "titulocab">
+	    <h2>CONTÁCTENOS</h2>
+	  </article>
+	  <hr>
+	  <article class = "contenido">
+		<h3>Diligencie el siguiente formulario e inmediatamente nos pondremos en contacto con usted</h3>
+		<br>
+	     <form name="datos" onSubmit="return validar();">
+		  <ul id = "formulario">
+		   <li>
+		     <label for = "nombre">Nombres y Apellidos (obligatorio) :</label>
+		     <br>	 
+             <input type="text" name = "nombre" id = "nombre" size= "40" autofocus  required />
+		   </li> 
+
+            		   
+		   <li>
+		     <label for = "email">Correo Electrónico (obligatorio) :</label>
+			 <br>
+             <input type="email" name = "email" id = "email" size = "40"  required />
+	       </li>
+		   <li>
+		   <fieldset>
+		      Genero (obligatorio) :
+			 <br>
+             <input type="radio" name = "genero" id = "masculino" />Masculino
+			 <input type="radio" name = "genero" id = "femenino" size = "10" />Femenino
+			 </fieldset>
+	       </li>
+		   
+		   <li>
+		     <label for = "asunto">Asunto (obligatorio):</label>
+			 <br>
+             <input type="text" name = "asunto" id = "asunto"  size = "60" required />
+		   </li>  
+		   <li> 
+		     <label for = "mensaje">Escriba su mensaje (obligatorio) :</label> 
+           	 <br>	   
+		     <textarea required cols="46" rows="8" name = "mensaje" id = "mensaje" ></textarea><br>
+		   </li>
+		   <br>
+		    <li>
+             <input type="submit" id = "submit" value="Enviar Información">
+	       </li>
+		  </ul>  
+		 </form>
+	  </article>
+	</section>
+	<br>
+	<footer>
+	</footer>
+  </body>
+</html>
+
+
+
+
+
